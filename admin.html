@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Admin</title>
+</head>
+
+<body>
+
+<h2>Subir Producto</h2>
+
+<input type="text" id="nombre" placeholder="Nombre"><br><br>
+<input type="number" id="precio" placeholder="Precio"><br><br>
+<input type="file" id="imagen" placeholder="image/*"><br><br>
+<input type="text" id="descripcion" placeholder="Descripción"><br><br>
+
+<img id="preview" width="150" style="display:none; margin-top:10px;">
+
+<select id="categoria">
+    <option value="alimentos">Alimentos</option>
+    <option value="higiene">Higiene</option>
+</select>
+
+<br><br>
+
+<button id="guardar">Guardar Producto</button>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
